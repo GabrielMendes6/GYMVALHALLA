@@ -1,0 +1,151 @@
+#mainSect {
+    width: 100%;
+    height: 100vh;
+
+    #justFy {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        color: #f0f8ff;
+
+        #InfoAccount {
+            width: 60%;
+            display: flex;
+            margin: 5% 0 0;
+            background-color: #1A1A1A;
+            padding: 1%;
+
+            #imgAvatar {
+                #imgCirc {
+                    width: 75px;
+                    height: 75px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    overflow: hidden;
+                
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            #InfoPerfil {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin: 0 2.5%;
+
+                span {
+                    font-size: 14pt;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 10pt;
+                    margin: 0;
+                }
+            }
+
+            #ChevronIcon {
+                display: flex;
+                align-items: center;
+                position: relative;
+                left: 50%;
+
+                .icon-inline {
+                    width: 1.5em;
+                    height: 1.5em;
+                    fill: #7C0A0C;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        #optionAccount {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            margin: 2.5% 0;
+            background-color: #1A1A1A;
+            padding: 1%;
+
+            .boxOptionsAccount {
+                width: 100%;
+                height: 75px;
+                display: flex;
+                flex-direction: row;
+                padding: 1% 0;
+                cursor: pointer;
+
+                a {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    color: #f0f8ff;
+                    text-decoration: none;
+                }
+
+                .imgAvatar {
+                    display: flex;
+                    align-items: center;
+                    .imgCirc {
+                        width: 60px;
+                        height: 60px;
+                        border: 1px solid #7C0A0C;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    
+                        .icon-inline {
+                            width: 2em;
+                            height: 2em;
+                            fill: #7C0A0C;
+                        }
+                    }
+                }
+
+                .InfoPerfil {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    margin: 0 2.5%;
+                    width: 100%;
+
+                    span {
+                        font-size: 14pt;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-size: 10pt;
+                        margin: 0;
+                    }
+            
+                }
+
+                .ChevronIcon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    width: 100%;
+    
+                    .icon-inline {
+                        width: 1.5em;
+                        height: 1.5em;
+                        fill: #7C0A0C;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .boxOptionsAccount:hover {
+                background-color: #181818;
+            }
+        }
+    }
+}
+

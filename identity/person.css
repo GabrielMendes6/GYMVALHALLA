@@ -1,0 +1,128 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    #justFy {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #headerMain {
+            width: 100%;
+
+            span {
+                font-size: 16pt;
+            }
+
+            p {
+                font-size: 10pt;
+            }
+        }
+
+        form,
+        #BoxFPerson {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            #FormPerson {
+                width: 100%;
+                padding-top: 5%;
+
+                table {
+                    width: 100%;
+
+                    .NameItens {
+                        text-align: right;
+                        text-wrap: nowrap;
+                        padding-bottom: 2.5%;
+                    }
+
+                    .Itens {
+                        width: 100%;
+                        padding: 0 0 2.5% 2.5%;
+
+                        input {
+                            width: 80%;
+                            padding-left: 2.5%;
+                            background-color: transparent;
+                            border: 1px solid red;
+                            color: #f0f8ff;
+                            height: 40px;
+                        }
+
+                        .emailEnv {
+                            color: #7C0A0C;
+                            font-size: 10pt;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        #ChooseImg { 
+            display: flex;
+            align-items: center;
+
+            #ContainerImgP {
+                align-self: center;
+            
+                #BoxImg  {
+                    width: 75px;
+                    height: 75px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin: 0 auto;
+            
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                #divCBtn{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10%;
+
+                    .custom-file-input {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        height: 40px;
+                        background-color: #101010;
+                        border: 1px solid #7C0A0C;
+                        color: #f0f8ff;
+                        width: 90%;
+                        margin: 0 auto;
+                        
+                    }
+
+                    .custom-file-input input[type=file] {
+                        display: none;
+                    }
+                    .custom-file-input label {
+                        display: block;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                #infoTextPimg {
+                    .styminFontP {
+                        font-size: 12pt;
+                        text-wrap: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+main {
+    background-color: #f0f8ff;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+
+    #Visu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        #imgOpt {
+            display: flex;
+            flex-direction: column;
+            width: 5%;
+            margin-right: .3%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        #ProdImg {
+            width: 30%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

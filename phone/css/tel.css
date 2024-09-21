@@ -1,0 +1,62 @@
+main {
+    height: 50vh;
+    .just {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    #justCont {
+        width: 80%;
+
+        #textF {
+            text-align: center;
+        }
+
+        #ContInput {
+            width: 100%;
+
+            #textInp {
+                margin-left: 30%;
+                margin-bottom: 1%;
+            }
+
+            #boxInp {
+                #tel {
+                    width: 40%;
+                    height: 40px;
+                    background-color: transparent;
+                    border: 1px solid #7C0A0C;
+                    margin: 0 auto;
+                    color: #f0f8ff;
+                }
+            }
+
+            #btnSub-div {
+                width: 100%;
+                margin: 2%;
+
+                #sub {
+                    width: 30%;
+                    height: 40px;
+                    background-color: transparent;
+                    border: 1px solid #7C0A0C;
+                    color: #f0f8ff;
+                    cursor: pointer;
+                }
+
+                #sub:hover {
+                    background-color: #330304;
+                    color: #f0f8ff;
+                }
+            }
+        }
+        
+        form {
+            width: 100%;
+        }            
+    }
+}

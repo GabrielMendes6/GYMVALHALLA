@@ -1,0 +1,194 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.fontSmall {
+    font-size: 10pt;
+    color: #f0f8ff;
+}
+
+#home-sect {
+    height: 100vh;
+}
+
+header {
+    background-color: #101010f0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+
+    #justCont {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        #boxCont{
+            text-align: center;
+            #menuInit {
+                ul {
+                    list-style: none;
+                    display: flex;
+                    padding: 0;
+                    color: #fff;
+                    font-size: 8pt;
+
+                    li {
+                        padding: 0 5px;
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            h3 {
+                color: #fff;
+                margin-top: 40%;
+            }
+
+        }
+
+        #FormDiv {
+            color: #fff;
+            width: 100%;
+
+            #divEmail {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .inputLogin {
+                    width: 80%;
+                    height: 40px;
+                    background-color: transparent;
+                    border: 1px solid #7C0A0A;
+                    padding-left: 1.5%;
+                    color: #fff;
+                }
+
+            }
+
+            #divPass {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                #borderPass {
+                    display: flex;
+                    flex-direction: row;
+                    width: 80%;
+                    border: 1px solid #7C0A0A;
+                    padding-left: 1%;
+                    
+                    input {
+                        width: 90%;
+                        height: 40px;
+                        padding-left: 1.5%;
+                        background-color: transparent;
+                        border: none;
+                        color: #fff;
+                    }
+
+                    #showPass {
+                        margin-left: 2.5%;
+
+                        .icon-inline {
+                            width: 1.5em;
+                            height: 2.5em;
+                            fill: #7C0A0A;
+                        }
+                    }
+
+                    #showPass:hover {
+                        .icon-inline {
+                            fill: #7c0a0a75;
+                        }
+                    }
+
+                }
+
+                #forgetPass {
+                    align-self:flex-end;
+                    margin: 1.5% 10%;
+
+                    a {
+                        color: aliceblue;
+                    }
+                }
+                
+            }
+
+            .labelLogin {
+                align-self: baseline;
+                margin: 2.5% 9%;
+                font-size: 10pt;
+            }
+
+            #envForm {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                #eFormBtn {
+                    width: 80%;
+                    height: 40px;
+                    background-color: #7C0A0A;
+                    border: 1px solid #2c0000;
+                    color: #fff;
+                    transition: all .3s ease-in-out;
+                    cursor: pointer;
+                }
+
+                #eFormBtn:hover {
+                    background-color: #a10404;
+                }
+
+                .fontSmall {
+                    margin-top: 2.5%;
+
+                    a {
+                        color: #f0f8ff;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    #justCont {
+        width: 80% !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 848px) {
+    #showPass {
+        margin-left: 2.5% !important;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    #showPass {
+        margin-left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    #borderPass
+    input {
+        width: 87% !important;
+    }
+}
+
+

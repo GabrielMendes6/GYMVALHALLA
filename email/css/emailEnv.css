@@ -1,0 +1,25 @@
+main {
+    height: 50vh;
+    .just {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    #justCont {
+        width: 80%;
+
+        #boxEmail {
+            text-align: center;
+
+
+            .icon-inline {
+                fill: #7C0A0C;
+            }
+        }
+
+    }
+}

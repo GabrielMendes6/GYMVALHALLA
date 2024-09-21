@@ -1,0 +1,619 @@
+/* Config */
+.league-spartan-uniquifier {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.d-inline-block {
+    display: inline-block;
+}
+.icon-60px {
+    width: 60px;
+    height: 60px;
+}
+.mb-3 {
+    margin-bottom: 1rem;
+}
+.ml-1, .mx-1 {
+    margin-left: .25rem !important;
+}
+.icon-inline {
+    display: inline-block;
+    font-size: inherit;
+    width: 1em;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.icon-4x {
+    width: 4em;
+    height: 4em;
+}
+.align-item-middle {
+    vertical-align: middle;
+}
+.svg-icon-text {
+    fill: #fff;
+}  
+
+.titleProd {
+    font-size: 32pt;
+    text-align: left;
+    margin-left: 7%;
+    color: #292929;
+}
+
+/* Header */
+#header-top {
+    width: 100%;
+    color: #f0f8ff;
+    height: 5%;
+}
+
+/* Secound Section */
+
+#mainSect {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    padding: 5% 0;
+    #divM {
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+/* grid */
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+/* Prod */
+
+.divbox {
+    img {
+        width: 50%
+    }
+
+    span {
+        font-size: 13pt;
+        color: #292929;
+    }
+
+    p {
+        font-size: 12pt;
+        color: #7C0A0A;
+    }
+
+    a {
+        font-size: 14pt;
+        color: #2c3e50;
+    }
+
+    svg *, input[type="submit"] svg *, input[type="reset"] svg *, input[type="button"] svg * {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+
+    button {
+        width: 30%;
+        height: 40px;
+        background-color: transparent;
+        color: #7C0A0C;
+        border: 1px solid #7C0A0C;
+        border-radius: 960px;
+        transition: ease-in-out;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        background-color: #7C0A0C;
+        color: #fff;
+    
+        svg * {
+                    stroke: #fff;
+        }
+    }
+    }
+}
+
+
+
+/* BANNERS */
+
+#banner {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+/* Third Section */
+
+#ThirdSect {
+    background-image: url("../img/background-info.png");
+    background-color: #101010;  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    width: 100%;
+    height: 80%;
+
+    #Tshirt-infoMain {
+        display: flex;
+        justify-content: center;
+    }
+        
+    #TextInfo-Tshirt {
+        display: flex;
+        width: 100%;
+        height: 70%;
+        flex-direction: column;
+    }
+
+    #boxText-Tshirt {
+        display: flex;
+        flex-direction: column;
+        margin: 20% 20%;
+    }
+
+    #titleTshirt {
+        h3 {
+            color: #682929;
+            font-family: "Cut the crap";
+            font-size: 30pt;
+            margin: 20px 0;
+        }
+
+        span{
+            font-family: "League Spartan", sans-serif;
+            font-size: 18pt;
+        }
+    }
+
+    #SpansBox-Tshirt {
+        margin-top: 15%;
+        font-size: 13pt;
+    }
+}
+
+#ButtonDiv-Tshirt {
+    display: flex;
+    justify-content: center;
+    
+    button {
+        width: 40%;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 960px;
+        background: transparent;
+        align-items: center;
+        color: white;
+        
+
+        span {
+            font-size: 13pt;
+            margin-right: 5%;
+        }
+        
+    }
+
+    button:hover {
+        background-color: #373737;
+        border: 1px solid transparent;
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+
+        svg * {
+            stroke: #fff;
+        }
+    }
+
+}
+                
+
+        
+#imgDetail-Tshirt,
+#imgDiv-Tshirt,
+img {
+    width: 100%;
+    
+}
+
+
+/* CintDiv Info */
+#CintSect-Info {
+    width: 100%;
+    height: 80vh;
+    background-color: #EEF1F0;
+}
+#Cint-Main {
+    display: flex;
+    height: 100%;
+    width: 90%;
+}
+    #imgDatail-Cint {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}
+#imgMain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+
+    img {
+        width: 95%;
+    }
+}
+
+        
+
+#TextInfo-Cint{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+#infoImg {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0;
+}       
+#imgCint2 {
+    width: 100%;
+    img {
+        width: 80%;
+    }
+}
+
+#imgCint3 {
+    width: 100%;
+    img {
+        width: 80%;
+    }
+}
+            
+
+#infoText {
+    span{
+        font-family: "League Spartan", sans-serif;
+        font-size: 15pt;
+        color: #101010;
+    }
+}
+
+#btnCintLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    button {
+        width: 52%;
+        height: 50px;
+        border: 1px solid #101010;
+        border-radius: 960px;
+        background: transparent;
+        align-items: center;
+        color: #101010;
+
+        span {
+            font-size: 13pt;
+            margin-right: 5%;
+        }
+        
+    }
+
+    button:hover {
+        background-color: #101010;
+        border: 1px solid transparent;
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+
+        span{
+            color: #EEF1F0;
+        }
+
+        svg * {
+            stroke: #fff;
+        }
+    }
+
+}
+
+/* Detail Frete, Parcela, Contato */
+#PayMethod {
+    background-color: #292929;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#MainPayDiv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#PayFrete,
+#PayParcel,
+#PayContact {
+    text-align: center;
+    width: 20%;
+}
+.PayText-Span {
+    font-size: 16pt;
+    margin-bottom: .5rem !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.PayText-P {
+    font-size: 11pt;
+    margin-bottom: .5rem !important;
+}
+
+/* NewClothes */
+#Newclothes {
+    width: 100%;
+    height: 100%;
+    background-color: #EEF1F0;
+}
+#JustContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.titleProd {
+    margin: 0 0 0 2.5%;
+    color: #292929;
+}
+
+#Grid-News {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    width: 60%;
+    margin: 5% 0;
+}
+.rows {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.imgRow {
+    width: 80%;
+    img {
+        width: 100%;
+    }
+}
+
+.TextDivRow {
+    text-align: center;
+    padding: 10px 0;
+    span {
+        font-size: 10pt;
+        opacity: .8;
+        color: #101010;
+
+    }
+
+    p {
+        font-size: 10pt;
+        color: #7C0A0A;
+    }
+
+    a {
+        font-size: 14pt;
+        color: #2c3e50;
+    }
+}
+
+.insta {
+    .svg-icon-text {
+        fill: #2c3e50;
+    }
+    color: #2c3e50;
+}
+
+.instaLink {
+    font-size: 14pt;
+    color: #2c3e50;
+    margin-top: 1%;
+}
+
+
+/* Newsletter */
+#Newsletter {
+    width: 100%;
+    height: 30vh;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ContainerNewsletter {
+    width: 60%;
+    height: 90%;
+    background-color: #EEF1F0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BoxNewsletter {
+    text-align: center;
+    span {
+        color: #292929;
+        font-size: 20pt;
+    }
+    p {
+        font-size: 12pt;
+    }
+}
+#InputEmail-NewsLetter {
+    width: 420px;
+    height: 40px;
+    border: 1px solid #b5b5b5;
+
+    input {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+#InputEmail-NewsLetter:hover {
+    border-color: #101010;
+}
+
+.form-control {
+    width: 80%;
+    height: 100%;
+}
+
+.newsletter-btn {
+    height: 100%;
+    text-decoration: underline;
+}
+            
+
+
+/* Medias */
+
+@media (max-width: 1366px) {
+    #Divcart {
+        width: 35%;
+    }
+    
+    #ButtonDiv-Tshirt button span {
+            font-size: 11pt;
+            margin-right: 2%;
+        }
+    
+
+    #btnCintLink button span {
+            font-size: 11pt;
+            margin-right: 2%;
+        }   
+
+
+        
+        .PayText-Span {
+            font-size: 14pt;
+        }
+}
+
+@media (max-width: 1280px) {
+    #ButtonDiv-Tshirt button {
+        width: 45%;
+    }
+
+    #btnCintLink button {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #grid {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .divbox {
+        margin-bottom: 5%;
+    }
+
+    #ThirdSect{ 
+        #Tshirt-infoMain {
+            flex-direction: column-reverse;
+        }
+    }
+
+    
+
+    #ThirdSect
+    #boxText-Tshirt {
+        margin: 0% 20% 10%;
+    }
+
+    #ButtonDiv-Tshirt {
+        margin-bottom: 10%;
+    }
+
+    #CintSect-Info {
+        height: 40vh;
+    }
+
+    #PayFrete, #PayParcel, #PayContact {
+        width: 30%;
+    }
+    
+    .icon-4x {
+        width: 3.5em;
+    }
+
+    .PayText-Span {
+        font-size: 12pt;
+    }
+
+    .PayText-P {
+        font-size: 8pt;
+    }
+
+    #Grid-News {
+        width: 80%;
+    }
+    
+    #ContainerNewsletter {
+        width: 80%;
+    }    
+}
+
+@media (max-width: 608px) {
+    #btnCintLink button {
+        width: 100%;
+    }
+
+    .icon-4x {
+        width: 2.5em;
+
+    }
+
+    .PayText-Span {
+        font-size: 10pt;
+    }
+
+    #Grid-News {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #InputEmail-NewsLetter {
+        width: 100%;
+        display: flex;
+    }
+
+}
